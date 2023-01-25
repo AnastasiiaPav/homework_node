@@ -1,0 +1,30 @@
+{
+  "name": "homework_node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnastasiiaPav/homework_node.git"
+  },
+  "author": "Anastasiia Pa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnastasiiaPav/homework_node/issues"
+  },
+  "homepage": "https://github.com/AnastasiiaPav/homework_node#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "commander": "^10.0.0",
+    "fs": "^0.0.1-security",
+    "nanoid": "^3.3.3",
+    "node": "^19.3.0"
+  }
+}
